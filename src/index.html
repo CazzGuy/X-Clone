@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X | What's Happening </title>
+  <link href="./output.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body class="text-white bg-black">
+
+  <div class="container flex ">
+    <div class="left w-2/11 md:w-1/2">
+      <div class="logo m-4 pb-2 pl-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="invert" viewBox="0 0 24 24" width="38" height="38"
+          color="#000000" fill="none">
+          <path
+            d="M3 21L10.5484 13.4516M21 3L13.4516 10.5484M13.4516 10.5484L8 3H3L10.5484 13.4516M13.4516 10.5484L21 21H16L10.5484 13.4516"
+            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+      <ul class="m-3 flex flex-col pl-4">
+        <li class="flex pb-3  ">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert" height="28px" viewBox="0 -960 960 960" width="28px"
+            fill="#000000">
+            <path
+              d="M220-180h150v-250h220v250h150v-390L480-765 220-570v390Zm-60 60v-480l320-240 320 240v480H530v-250H430v250H160Zm320-353Z" />
+          </svg>
+          <p class=" m-1 hidden md:block ">Home</p>
+        </li>
+        <li class="flex pb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert" height="28px" viewBox="0 -960 960 960" width="28px"
+            fill="#000000">
+            <path
+              d="M796-121 533-384q-30 26-69.96 40.5Q423.08-329 378-329q-108.16 0-183.08-75Q120-479 120-585t75-181q75-75 181.5-75t181 75Q632-691 632-584.85 632-542 618-502q-14 40-42 75l264 262-44 44ZM377-389q81.25 0 138.13-57.5Q572-504 572-585t-56.87-138.5Q458.25-781 377-781q-82.08 0-139.54 57.5Q180-666 180-585t57.46 138.5Q294.92-389 377-389Z" />
+          </svg>
+          <p class="m-1 hidden md:block">Explore</p>
+        </li>
+        <li class="flex pb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert" height="28px" viewBox="0 -960 960 960" width="28px"
+            fill="#000000">
+            <path
+              d="M160-200v-60h80v-304q0-84 49.5-150.5T420-798v-22q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v22q81 17 130.5 83.5T720-564v304h80v60H160Zm320-302Zm0 422q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM300-260h360v-304q0-75-52.5-127.5T480-744q-75 0-127.5 52.5T300-564v304Z" />
+          </svg>
+          <p class="m-1 hidden md:block">Notificaion</p>
+        </li>
+        <li class="flex pb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert" height="28px" viewBox="0 -960 960 960" width="28px"
+            fill="#000000">
+            <path
+              d="M180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm0-60h600v-136H634q-26 40-67.5 61.5T480-233q-45 0-86.5-21.5T326-316H180v136Zm300.25-113Q521-293 554-316.5t56-59.5h170v-404H180v404h170q23 36 56.25 59.5 33.24 23.5 74 23.5ZM180-180h600-600Z" />
+          </svg>
+          <p class="mt-1 hidden md:block">Messages</p>
+        </li>
+        <li class="flex pb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert" height="28px" viewBox="0 -960 960 960" width="28px"
+            fill="#000000">
+            <path
+              d="M250-452h461v-60H250v60Zm-70 332q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm0-60h600v-600H180v600Zm0-600v600-600Z" />
+          </svg>
+          <p class="m-1 hidden md:block">Grok</p>
+        </li>
+        <li class="flex pb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert" height="28px" viewBox="0 -960 960 960" width="28px"
+            fill="#000000">
+            <path
+              d="M279.98-407q14.02 0 23.52-9.48t9.5-23.5q0-14.02-9.48-23.52t-23.5-9.5q-14.02 0-23.52 9.48t-9.5 23.5q0 14.02 9.48 23.52t23.5 9.5Zm0-160q14.02 0 23.52-9.48t9.5-23.5q0-14.02-9.48-23.52t-23.5-9.5q-14.02 0-23.52 9.48t-9.5 23.5q0 14.02 9.48 23.52t23.5 9.5ZM360-410h360v-60H360v60Zm0-160h360v-60H360v60Zm-30 450v-80H140q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H630v80H330ZM140-260h680v-520H140v520Zm0 0v-520 520Z" />
+          </svg>
+          <p class="m-1 hidden md:block">Lists</p>
+        </li>
+        <li class="flex pb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert" height="28px" viewBox="0 -960 960 960" width="28px"
+            fill="#000000">
+            <path
+              d="M200-120v-665q0-24 18-42t42-18h440q24 0 42 18t18 42v665L480-240 200-120Zm60-91 220-93 220 93v-574H260v574Zm0-574h440-440Z" />
+          </svg>
+          <p class="m-1 hidden md:block ">Bookmarks</p>
+        </li>
+        <li class="flex pb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert" height="28px" viewBox="0 -960 960 960" width="28px"
+            fill="#000000">
+            <path
+              d="M38-160v-94q0-35 18-63.5t50-42.5q73-32 131.5-46T358-420q62 0 120 14t131 46q32 14 50.5 42.5T678-254v94H38Zm700 0v-94q0-63-32-103.5T622-423q69 8 130 23.5t99 35.5q33 19 52 47t19 63v94H738ZM358-481q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42Zm360-150q0 66-42 108t-108 42q-11 0-24.5-1.5T519-488q24-25 36.5-61.5T568-631q0-45-12.5-79.5T519-774q11-3 24.5-5t24.5-2q66 0 108 42t42 108ZM98-220h520v-34q0-16-9.5-31T585-306q-72-32-121-43t-106-11q-57 0-106.5 11T130-306q-14 6-23 21t-9 31v34Zm260-321q39 0 64.5-25.5T448-631q0-39-25.5-64.5T358-721q-39 0-64.5 25.5T268-631q0 39 25.5 64.5T358-541Zm0 321Zm0-411Z" />
+          </svg>
+          <p class="m-1 hidden md:block">Communities</p>
+        </li>
+        <li class="flex pb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert" viewBox="0 0 24 24" width="28" height="28"
+            color="#000000" fill="none">
+            <path
+              d="M3 21L10.5484 13.4516M21 3L13.4516 10.5484M13.4516 10.5484L8 3H3L10.5484 13.4516M13.4516 10.5484L21 21H16L10.5484 13.4516"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <p class="m-1 hidden md:block">Premium</p>
+        </li>
+        <li class="flex pb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert" height="28px" viewBox="0 -960 960 960" width="28px"
+            fill="#000000">
+            <path
+              d="M480-481q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM160-160v-94q0-38 19-65t49-41q67-30 128.5-45T480-420q62 0 123 15.5t127.92 44.69q31.3 14.13 50.19 40.97Q800-292 800-254v94H160Zm60-60h520v-34q0-16-9.5-30.5T707-306q-64-31-117-42.5T480-360q-57 0-111 11.5T252-306q-14 7-23 21.5t-9 30.5v34Zm260-321q39 0 64.5-25.5T570-631q0-39-25.5-64.5T480-721q-39 0-64.5 25.5T390-631q0 39 25.5 64.5T480-541Zm0-90Zm0 411Z" />
+          </svg>
+          <p class="m-1 hidden md:block">Profile</p>
+        </li>
+        <li class="flex pb-1 md:pb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert" height="28px" viewBox="0 -960 960 960" width="28px"
+            fill="#000000">
+            <path
+              d="M350-160q-14.25 0-27-6.38-12.75-6.37-21-17.62L80-480l221-296q8.25-11.25 21-17.63 12.75-6.37 27-6.37h472q24.75 0 42.38 17.62Q881-764.75 881-740v520q0 24.75-17.62 42.37Q845.75-160 821-160H350ZM155-480l195 260h471v-520H350L155-480Zm240 41q17.42 0 29.21-11.79T436-480q0-17.42-11.79-29.21T395-521q-17.42 0-29.21 11.79T354-480q0 17.42 11.79 29.21T395-439Zm152 0q17.42 0 29.21-11.79T588-480q0-17.42-11.79-29.21T547-521q-17.42 0-29.21 11.79T506-480q0 17.42 11.79 29.21T547-439Zm152 0q17.42 0 29.21-11.79T740-480q0-17.42-11.79-29.21T699-521q-17.42 0-29.21 11.79T658-480q0 17.42 11.79 29.21T699-439Zm-113-41Z" />
+          </svg>
+          <p class="m-1 hidden md:block">More</p>
+        </li>
+        <li class="md:hidden relative text-2xl ">
+          <div class="acc flex">
+            <svg xmlns="http://www.w3.org/2000/svg" class="invert" height="40px" viewBox="0 -960 960 960" width="40px"
+              fill="#000000">
+              <path
+                d="M237-285q54-38 115.5-56.5T480-360q66 0 127.5 18.5T723-285q35-41 52-91t17-104q0-129.67-91.23-220.84-91.23-91.16-221-91.16Q350-792 259-700.84 168-609.67 168-480q0 54 17 104t52 91Zm243-123q-60 0-102-42t-42-102q0-60 42-102t102-42q60 0 102 42t42 102q0 60-42 102t-102 42Zm.28 312Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q52 0 100-16.5t90-48.5q-43-27-91-41t-99-14q-51 0-99.5 13.5T290-233q42 32 90 48.5T480-168Zm0-312q30 0 51-21t21-51q0-30-21-51t-51-21q-30 0-51 21t-21 51q0 30 21 51t51 21Zm0-72Zm0 319Z" />
+            </svg>
+          </div>
+        </li>
+        <div class="hidden md:block">
+          <li class="flex justify-center font-bold  rounded-full w-1/2  bg-blue-400  p-3">
+            Post
+          </li>
+        </div>
+        <li class="hidden md:block pt-6 relative text-2xl ">
+          <div class="acc flex">
+            <svg xmlns="http://www.w3.org/2000/svg" class="invert " height="40px" viewBox="0 -960 960 960" width="40px"
+              fill="#000000">
+              <path
+                d="M237-285q54-38 115.5-56.5T480-360q66 0 127.5 18.5T723-285q35-41 52-91t17-104q0-129.67-91.23-220.84-91.23-91.16-221-91.16Q350-792 259-700.84 168-609.67 168-480q0 54 17 104t52 91Zm243-123q-60 0-102-42t-42-102q0-60 42-102t102-42q60 0 102 42t42 102q0 60-42 102t-102 42Zm.28 312Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q52 0 100-16.5t90-48.5q-43-27-91-41t-99-14q-51 0-99.5 13.5T290-233q42 32 90 48.5T480-168Zm0-312q30 0 51-21t21-51q0-30-21-51t-51-21q-30 0-51 21t-21 51q0 30 21 51t51 21Zm0-72Zm0 319Z" />
+            </svg>
+            <h1 class="m-1 hidden md:block text-[19px]">Abhigyan Sengupta</h1>
+          </div>
+          <p class="ml-11 hidden md:block absolute top-[55px] text-[15px] text-gray-600">@abhiSengu</p>
+        </li>
+      </ul>
+    </div>
+    <div class="mid w-full border-x-1 border-gray-500">
+      <div class="top-0 bg-black backdrop-blur-lg opacity-70 sticky flex m-3 mb-2 justify-between">
+        <p class="hover:underline cursor-pointer">For You</p>
+        <p class="hover:underline cursor-pointer">Following</p>
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#FFFFFF">
+          <path
+            d="m403-96-22-114q-23-9-44.5-21T296-259l-110 37-77-133 87-76q-2-12-3-24t-1-25q0-13 1-25t3-24l-87-76 77-133 110 37q19-16 40.5-28t44.5-21l22-114h154l22 114q23 9 44.5 21t40.5 28l110-37 77 133-87 76q2 12 3 24t1 25q0 13-1 25t-3 24l87 76-77 133-110-37q-19 16-40.5 28T579-210L557-96H403Zm59-72h36l19-99q38-7 71-26t57-48l96 32 18-30-76-67q6-17 9.5-35.5T696-480q0-20-3.5-38.5T683-554l76-67-18-30-96 32q-24-29-57-48t-71-26l-19-99h-36l-19 99q-38 7-71 26t-57 48l-96-32-18 30 76 67q-6 17-9.5 35.5T264-480q0 20 3.5 38.5T277-406l-76 67 18 30 96-32q24 29 57 48t71 26l19 99Zm18-168q60 0 102-42t42-102q0-60-42-102t-102-42q-60 0-102 42t-42 102q0 60 42 102t102 42Zm0-144Z" />
+        </svg>
+      </div>
+    
+      <div class="post ">
+        <div class="flex border-t-1 border-gray-500">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert m-3" height="40px" viewBox="0 -960 960 960" width="40px"
+            fill="#000000">
+            <path
+              d="M237-285q54-38 115.5-56.5T480-360q66 0 127.5 18.5T723-285q35-41 52-91t17-104q0-129.67-91.23-220.84-91.23-91.16-221-91.16Q350-792 259-700.84 168-609.67 168-480q0 54 17 104t52 91Zm243-123q-60 0-102-42t-42-102q0-60 42-102t102-42q60 0 102 42t42 102q0 60-42 102t-102 42Zm.28 312Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q52 0 100-16.5t90-48.5q-43-27-91-41t-99-14q-51 0-99.5 13.5T290-233q42 32 90 48.5T480-168Zm0-312q30 0 51-21t21-51q0-30-21-51t-51-21q-30 0-51 21t-21 51q0 30 21 51t51 21Zm0-72Zm0 319Z" />
+          </svg>
+          <input class="w-full outline-none text-gray-600" placeholder="What is happening?!" type="text">
+        </div>
+        <div class="flex ml-14 justify-between mt-2">
+          <div class="flex">
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#4B77D1">
+              <path
+                d="M216-144q-29.7 0-50.85-21.5Q144-187 144-216v-528q0-29 21.15-50.5T216-816h528q29.7 0 50.85 21.5Q816-773 816-744v528q0 29-21.15 50.5T744-144H216Zm0-72h528v-528H216v528Zm48-72h432L552-480 444-336l-72-96-108 144Zm-48 72v-528 528Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" class="ml-2" viewBox="0 -960 960 960" width="20px"
+              fill="#4B77D1">
+              <path
+                d="M216-144q-29 0-50.5-21.5T144-216v-528q0-29.7 21.5-50.85Q187-816 216-816h528q29.7 0 50.85 21.15Q816-773.7 816-744v528q0 29-21.15 50.5T744-144H216Zm0-72h528v-528H216v528Zm240-168h48v-192h-48v192Zm-144 0h48q20.4 0 34.2-13.8Q408-411.6 408-432v-48h-48v48h-48v-96h96v-14q0-10-13.8-22T360-576h-48q-20.4 0-34.2 13.8Q264-548.4 264-528v96q0 20.4 13.8 34.2Q291.6-384 312-384Zm240 0h48v-72h72v-48h-72v-24h96v-48H552v192ZM216-216v-528 528Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" class="ml-2" viewBox="0 -960 960 960" width="20px"
+              fill="#4B77D1">
+              <path
+                d="M288-600v-72h528v72H288Zm0 156v-72h528v72H288Zm0 156v-72h528v72H288ZM180-600q-14 0-25-11t-11-25.5q0-14.5 11-25t25.5-10.5q14.5 0 25 10.35T216-636q0 14-10.35 25T180-600Zm0 156q-14 0-25-11t-11-25.5q0-14.5 11-25t25.5-10.5q14.5 0 25 10.35T216-480q0 14-10.35 25T180-444Zm0 156q-14 0-25-11t-11-25.5q0-14.5 11-25t25.5-10.5q14.5 0 25 10.35T216-324q0 14-10.35 25T180-288Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" class="ml-2" viewBox="0 -960 960 960" width="20px"
+              fill="#4B77D1">
+              <path
+                d="M612-504q25 0 42.5-17.5T672-564q0-25-17.5-42.5T612-624q-25 0-42.5 17.5T552-564q0 25 17.5 42.5T612-504Zm-264 0q25 0 42.5-17.5T408-564q0-25-17.5-42.5T348-624q-25 0-42.5 17.5T288-564q0 25 17.5 42.5T348-504Zm131.9 240q69.1 0 125.6-39T683-408h-79q-19.92 33.3-52.96 52.65T480-336q-38 0-71.04-19.35Q375.92-374.7 356-408h-79q21 66 77.4 105 56.4 39 125.5 39Zm.38 168Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30ZM480-480Zm0 312q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" class="ml-2" viewBox="0 -960 960 960" width="20px"
+              fill="#4B77D1">
+              <path
+                d="M576.23-240Q536-240 508-267.77q-28-27.78-28-68Q480-376 507.77-404q27.78-28 68-28Q616-432 644-404.23q28 27.78 28 68Q672-296 644.23-268q-27.78 28-68 28ZM216-96q-29.7 0-50.85-21.5Q144-139 144-168v-528q0-29 21.15-50.5T216-768h72v-96h72v96h240v-96h72v96h72q29.7 0 50.85 21.5Q816-725 816-696v528q0 29-21.15 50.5T744-96H216Zm0-72h528v-360H216v360Zm0-432h528v-96H216v96Zm0 0v-96 96Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" class="ml-2" viewBox="0 -960 960 960" width="20px"
+              fill="#4B77D1">
+              <path
+                d="M480.21-480Q510-480 531-501.21t21-51Q552-582 530.79-603t-51-21Q450-624 429-602.79t-21 51Q408-522 429.21-501t51 21ZM480-191q119-107 179.5-197T720-549q0-105-68.5-174T480-792q-103 0-171.5 69T240-549q0 71 60.5 161T480-191Zm0 95Q323.03-227.11 245.51-339.55 168-452 168-549q0-134 89-224.5T479.5-864q133.5 0 223 90.5T792-549q0 97-77 209T480-96Zm0-456Z" />
+            </svg>
+          </div>
+          <div class="hidden md:flex justify-center font-bold rounded-full w-1/6 bg-blue-400 m-2 p-1">
+            <p class=" mb-1 ">
+              post
+            </p>
+          </div>
+          <div class="md:hidden flex justify-center font-bold rounded-full w-1/6 bg-blue-400 mr-3 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000">
+              <path
+                d="M200-200h57l391-391-57-57-391 391v57Zm-80 80v-170l528-527q12-11 26.5-17t30.5-6q16 0 31 6t26 18l55 56q12 11 17.5 26t5.5 30q0 16-5.5 30.5T817-647L290-120H120Zm640-584-56-56 56 56Zm-141 85-28-29 57 57-29-28Z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="posts mt-4">
+        <div class="post border-[1px] border-y-gray-600 border-x-0  ">
+          <div class="flex">
+            <div class="image mt-6 ml-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="invert " height="40px" viewBox="0 -960 960 960"
+                width="40px" fill="#000000">
+                <path
+                  d="M237-285q54-38 115.5-56.5T480-360q66 0 127.5 18.5T723-285q35-41 52-91t17-104q0-129.67-91.23-220.84-91.23-91.16-221-91.16Q350-792 259-700.84 168-609.67 168-480q0 54 17 104t52 91Zm243-123q-60 0-102-42t-42-102q0-60 42-102t102-42q60 0 102 42t42 102q0 60-42 102t-102 42Zm.28 312Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q52 0 100-16.5t90-48.5q-43-27-91-41t-99-14q-51 0-99.5 13.5T290-233q42 32 90 48.5T480-168Zm0-312q30 0 51-21t21-51q0-30-21-51t-51-21q-30 0-51 21t-21 51q0 30 21 51t51 21Zm0-72Zm0 319Z" />
+              </svg>
+            </div>
+            <div class="content mt-7 ml-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">Elon Musk</span> <span
+                class="text-gray-500">@ElonMusk · 6h </span>
+              <div class="postimg m-2 ml-0"> I spent $44 billion for this app and now Lizard boy just
+                decided to hit copy and paste.
+
+                It’s personal now.
+
+                See you in the cage, Zuck.
+              </div>
+              <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    chat_bubble
+                  </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    repeat
+                  </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    Favorite
+                  </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    bar_chart
+                  </span> 1k
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="post mt-2 ">
+          <div class="flex border-y-gray-600 border-x-0">
+            <div class="image m-4">
+              <img class="w-16" src="https://pbs.twimg.com/profile_images/1522060025854066688/IZs_lylH_bigger.png"
+                alt="">
+            </div>
+            <div class="content my-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">CodeWithHarry</span> <span
+                class="text-gray-500">@CodeWithHarry · 6h </span>
+              <div>Living legend</div>
+              <div class="postimg m-4 ml-0">
+                <img class="rounded-xl" src="https://pbs.twimg.com/media/GEGqnodacAAoyCO?format=jpg&name=900x900"
+                  alt="">
+              </div>
+              <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    chat_bubble
+                  </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    repeat
+                  </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    Favorite
+                  </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    bar_chart
+                  </span> 1k
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="post mt-2 ">
+          <div class="flex border border-y-gray-600 border-x-0">
+            <div class="image m-4">
+              <img class="w-8" src="https://pbs.twimg.com/profile_images/1724504100136439808/J8k8HnSD_bigger.png"
+                alt="">
+            </div>
+            <div class="content my-3">
+              <span class="font-bold hover:underline cursor-pointer text-white"> non aesthetic
+                things</span> <span class="text-gray-500">@CodeMeme · 6h </span>
+              <div>This is amazing coding meme</div>
+              <div class="postimg m-4 ml-0">
+                <img class="rounded-xl w-full"
+                  src="https://s3.amazonaws.com/rails-camp-tutorials/blog/programming+memes/works-doesnt-work.jpg"
+                  alt="">
+              </div>
+              <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    chat_bubble
+                  </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    repeat
+                  </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    Favorite
+                  </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    bar_chart
+                  </span> 1k
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="post mt-2 border-y-gray-600 border-x-0">
+          <div class="flex">
+            <div class="image m-4">
+              <img class="w-16" src="https://pbs.twimg.com/profile_images/1522060025854066688/IZs_lylH_bigger.png"
+                alt="">
+            </div>
+            <div class="content my-3">
+              <span class="font-bold hover:underline cursor-pointer text-white"> non aesthetic
+                things</span> <span class="text-gray-500">@PicturesFoIder · 6h </span>
+              <div>legend</div>
+              <div class="postimg m-4 ml-0">
+                <img class="rounded-xl" src="https://pbs.twimg.com/media/GEGqnodacAAoyCO?format=jpg&name=900x900"
+                  alt="">
+              </div>
+              <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    chat_bubble
+                  </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    repeat
+                  </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    Favorite
+                  </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined">
+                    bar_chart
+                  </span> 1k
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="right w-3/4 ml-2 mt-2  hidden md:block">
+      <div class="search rounded-full bg-gray-700 p-2 ml-2  w-3/5">
+        <div class="text flex">
+          <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" height="20px" viewBox="0 -960 960 960" width="20px"
+            fill="#000000">
+            <path
+              d="M765-144 526-383q-30 22-65.79 34.5-35.79 12.5-76.18 12.5Q284-336 214-406t-70-170q0-100 70-170t170-70q100 0 170 70t70 170.03q0 40.39-12.5 76.18Q599-464 577-434l239 239-51 51ZM384-408q70 0 119-49t49-119q0-70-49-119t-119-49q-70 0-119 49t-49 119q0 70 49 119t119 49Z" />
+          </svg>
+          <h1 class="ml-2">Search</h1>
+        </div>
+      </div>
+      <div class="pem rounded-2xl border border-gray-600 p-2 m-2 w-3/5">
+        <h1 class="font-bold ml-2">Subscribe to premium</h1>
+        <p class="text-[15px] ml-2">Subcribe to unlock new features and if eligible recieve a share of ads revenue.</p>
+        <div class="sub ml-3 mt-2 bg-blue-500 rounded-4xl py-2 w-2/7 ">
+          <p class="ml-2 p-1 text-[13px] font-bold">Subscribe</p>
+        </div>
+      </div>
+      <div class="more rounded-2xl border border-gray-600 p-2 m-2 w-3/5">
+        <div class="ml-2 pt-2">
+          <h1 class="font-bold">What's Happening</h1>
+          <div class="top flex justify-between mt-2">
+            <p class="text-gray-600">Technology . Trending</p>
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" class="invert" viewBox="0 -960 960 960" width="20px"
+              fill="#4a5565">
+              <path
+                d="M263.79-408Q234-408 213-429.21t-21-51Q192-510 213.21-531t51-21Q294-552 315-530.79t21 51Q336-450 314.79-429t-51 21Zm216 0Q450-408 429-429.21t-21-51Q408-510 429.21-531t51-21Q510-552 531-530.79t21 51Q552-450 530.79-429t-51 21Zm216 0Q666-408 645-429.21t-21-51Q624-510 645.21-531t51-21Q726-552 747-530.79t21 51Q768-450 746.79-429t-51 21Z" />
+            </svg>
+          </div>
+          <h1 class="font-bold text-[14px]">Samsung</h1>
+          <h1 class="text-[12px]">22.8k posts</h1>
+          <div class="top flex justify-between mt-2">
+            <p class="text-gray-600">Action . Trending</p>
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" class="invert" viewBox="0 -960 960 960" width="20px"
+              fill="#4a5565">
+              <path
+                d="M263.79-408Q234-408 213-429.21t-21-51Q192-510 213.21-531t51-21Q294-552 315-530.79t21 51Q336-450 314.79-429t-51 21Zm216 0Q450-408 429-429.21t-21-51Q408-510 429.21-531t51-21Q510-552 531-530.79t21 51Q552-450 530.79-429t-51 21Zm216 0Q666-408 645-429.21t-21-51Q624-510 645.21-531t51-21Q726-552 747-530.79t21 51Q768-450 746.79-429t-51 21Z" />
+            </svg>
+          </div>
+          <h1 class="font-bold text-[14px]">#GenshinImpact</h1>
+          <h1 class="text-[12px]">92.8k posts</h1>
+          <div class="top flex justify-between mt-2">
+            <p class="text-gray-600">Technology . Trending</p>
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" class="invert" viewBox="0 -960 960 960" width="20px"
+              fill="#4a5565">
+              <path
+                d="M263.79-408Q234-408 213-429.21t-21-51Q192-510 213.21-531t51-21Q294-552 315-530.79t21 51Q336-450 314.79-429t-51 21Zm216 0Q450-408 429-429.21t-21-51Q408-510 429.21-531t51-21Q510-552 531-530.79t21 51Q552-450 530.79-429t-51 21Zm216 0Q666-408 645-429.21t-21-51Q624-510 645.21-531t51-21Q726-552 747-530.79t21 51Q768-450 746.79-429t-51 21Z" />
+            </svg>
+          </div>
+          <h1 class="font-bold text-[14px]">Xiaomi</h1>
+          <h1 class="text-[12px]">42.8k posts</h1>
+          <div class="top flex justify-between mt-2">
+            <p class="text-gray-600 text-[16px]">Trending</p>
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" class="invert" viewBox="0 -960 960 960" width="20px"
+              fill="#4a5565">
+              <path
+                d="M263.79-408Q234-408 213-429.21t-21-51Q192-510 213.21-531t51-21Q294-552 315-530.79t21 51Q336-450 314.79-429t-51 21Zm216 0Q450-408 429-429.21t-21-51Q408-510 429.21-531t51-21Q510-552 531-530.79t21 51Q552-450 530.79-429t-51 21Zm216 0Q666-408 645-429.21t-21-51Q624-510 645.21-531t51-21Q726-552 747-530.79t21 51Q768-450 746.79-429t-51 21Z" />
+            </svg>
+          </div>
+          <h1 class="font-bold text-[14px]">GitHub</h1>
+          <h1 class="text-[12px]">20k posts</h1>
+          <p class="text-blue-500 pt-3 text-[12px] hover:underline cursor-pointer">Show More</p>
+
+        </div>
+      </div>
+      <div class="follow rounded-2xl relative border border-gray-600 p-2 m-2 w-3/5">
+        <h1 class="font-bold m-3">Who to follow</h1>
+        <div class="acc flex">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert mt-2 ml-2" height="25px" viewBox="0 -960 960 960"
+            width="25px" fill="#000000">
+            <path
+              d="M237-285q54-38 115.5-56.5T480-360q66 0 127.5 18.5T723-285q35-41 52-91t17-104q0-129.67-91.23-220.84-91.23-91.16-221-91.16Q350-792 259-700.84 168-609.67 168-480q0 54 17 104t52 91Zm243-123q-60 0-102-42t-42-102q0-60 42-102t102-42q60 0 102 42t42 102q0 60-42 102t-102 42Zm.28 312Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q52 0 100-16.5t90-48.5q-43-27-91-41t-99-14q-51 0-99.5 13.5T290-233q42 32 90 48.5T480-168Zm0-312q30 0 51-21t21-51q0-30-21-51t-51-21q-30 0-51 21t-21 51q0 30 21 51t51 21Zm0-72Zm0 319Z" />
+          </svg>
+          <p class="ml-1 mt-1 hover:underline cursor-pointer">daylight</p>
+          <svg xmlns="http://www.w3.org/2000/svg" class="mt-2 ml-1" height="20px" viewBox="0 -960 960 960" width="20px"
+            fill="#5084C1">
+            <path
+              d="m347-72-75-124-141-32 13-144-96-108 96-108-13-144 141-32 75-124 133 57 133-57 75 124 141 32-13 144 96 108-96 108 13 144-141 32-75 124-133-57-133 57Zm29-91 104-44 104 44 58-97 110-25-10-111 74-84-74-84 10-111-110-25-58-97-104 44-104-44-58 97-110 24 10 112-74 84 75 84-11 112 110 25 58 96Zm104-317Zm-51 144 238-237-51-51-187 186-85-84-51 51 136 135Z" />
+          </svg>
+        </div>
+        <p class="ml-9 mt-1 absolute top-[79px] text-[13px]">@daylightco</p>
+        <button class="p-2 border rounded-full absolute bg-white text-black font-bold"
+          style="top: 60px;right: 8px">follow</button>
+        <div class="acc flex">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert mt-7 ml-2" height="25px" viewBox="0 -960 960 960"
+            width="25px" fill="#000000">
+            <path
+              d="M237-285q54-38 115.5-56.5T480-360q66 0 127.5 18.5T723-285q35-41 52-91t17-104q0-129.67-91.23-220.84-91.23-91.16-221-91.16Q350-792 259-700.84 168-609.67 168-480q0 54 17 104t52 91Zm243-123q-60 0-102-42t-42-102q0-60 42-102t102-42q60 0 102 42t42 102q0 60-42 102t-102 42Zm.28 312Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q52 0 100-16.5t90-48.5q-43-27-91-41t-99-14q-51 0-99.5 13.5T290-233q42 32 90 48.5T480-168Zm0-312q30 0 51-21t21-51q0-30-21-51t-51-21q-30 0-51 21t-21 51q0 30 21 51t51 21Zm0-72Zm0 319Z" />
+          </svg>
+          <p class="ml-1 mt-7 hover:underline cursor-pointer">elonmusk</p>
+          <svg xmlns="http://www.w3.org/2000/svg" class="mt-7 ml-1" height="20px" viewBox="0 -960 960 960" width="20px"
+            fill="#5084C1">
+            <path
+              d="m347-72-75-124-141-32 13-144-96-108 96-108-13-144 141-32 75-124 133 57 133-57 75 124 141 32-13 144 96 108-96 108 13 144-141 32-75 124-133-57-133 57Zm29-91 104-44 104 44 58-97 110-25-10-111 74-84-74-84 10-111-110-25-58-97-104 44-104-44-58 97-110 24 10 112-74 84 75 84-11 112 110 25 58 96Zm104-317Zm-51 144 238-237-51-51-187 186-85-84-51 51 136 135Z" />
+          </svg>
+        </div>
+        <p class="ml-9 mt-1 relative top-[-7px] text-[13px]">@elonmusk</p>
+        <button class="p-2 border rounded-full absolute bg-white text-black font-bold"
+          style="top: 120px;right: 8px">follow</button>
+        <div class="acc mt-2 flex">
+          <svg xmlns="http://www.w3.org/2000/svg" class="invert mt-2 ml-2" height="25px" viewBox="0 -960 960 960"
+            width="25px" fill="#000000">
+            <path
+              d="M237-285q54-38 115.5-56.5T480-360q66 0 127.5 18.5T723-285q35-41 52-91t17-104q0-129.67-91.23-220.84-91.23-91.16-221-91.16Q350-792 259-700.84 168-609.67 168-480q0 54 17 104t52 91Zm243-123q-60 0-102-42t-42-102q0-60 42-102t102-42q60 0 102 42t42 102q0 60-42 102t-102 42Zm.28 312Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q52 0 100-16.5t90-48.5q-43-27-91-41t-99-14q-51 0-99.5 13.5T290-233q42 32 90 48.5T480-168Zm0-312q30 0 51-21t21-51q0-30-21-51t-51-21q-30 0-51 21t-21 51q0 30 21 51t51 21Zm0-72Zm0 319Z" />
+          </svg>
+          <p class="ml-1 mt-1 hover:underline cursor-pointer">Bill Gates</p>
+          <svg xmlns="http://www.w3.org/2000/svg" class="mt-2 ml-1" height="20px" viewBox="0 -960 960 960" width="20px"
+            fill="#5084C1">
+            <path
+              d="m347-72-75-124-141-32 13-144-96-108 96-108-13-144 141-32 75-124 133 57 133-57 75 124 141 32-13 144 96 108-96 108 13 144-141 32-75 124-133-57-133 57Zm29-91 104-44 104 44 58-97 110-25-10-111 74-84-74-84 10-111-110-25-58-97-104 44-104-44-58 97-110 24 10 112-74 84 75 84-11 112 110 25 58 96Zm104-317Zm-51 144 238-237-51-51-187 186-85-84-51 51 136 135Z" />
+          </svg>
+        </div>
+        <p class="ml-9 mt-1 relative bottom-[10px] text-[13px]">@BillGates</p>
+        <button class="p-2 border rounded-full absolute bg-white text-black font-bold"
+          style="top: 180px;right: 8px">follow</button>
+        <p class="m-2 pl-2 text-blue-500 text-[13px] hover:underline cursor-pointer">Show More</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+</html>
